@@ -1,3 +1,6 @@
 from django.contrib import admin
+from .models import Chip, Player, MatchDay
 
-# Register your models here.
+admin.register(Chip)
+admin.register(Player)
+admin.register(MatchDay)

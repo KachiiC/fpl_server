@@ -1,6 +1,4 @@
-# DJANGO MODELS
 from django.db import models
-# TOOLS
 from tools.model_tools import max_min
 
 
