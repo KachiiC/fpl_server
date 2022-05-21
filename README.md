@@ -22,16 +22,11 @@ source venv/bin/activate
 Once you've activated your virtual environment install your python packages by running:
 ```
 pip install -r requirements.txt
-python manage.py migrate
 ```
 
-Now let's migrate our django project:
+Now let's migrate and run our django project:
 ```
 python manage.py migrate
-```
-
-If there are no hitches here you should now be able to open your server by running: 
-```
 python manage.py runserver
 ```
 
