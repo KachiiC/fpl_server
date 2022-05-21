@@ -2,8 +2,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-z&^)c03)5a2umm$bg-w2da8hpwmpk!4rx7o46_3#-5ul!%p149'
-
+SECRET_KEY = 'django-insecure-=75u06pfi--3oz0p(-dkx!!uga2_q6ja+)$(1qjc=t^!(-)f&i'
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -17,7 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'rest_framework',
-    'players',
+    'fpl_players'
 ]
 
 MIDDLEWARE = [
@@ -31,7 +30,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'fpl_django.urls'
+ROOT_URLCONF = 'fpl_api.urls'
 
 TEMPLATES = [
     {
@@ -49,7 +48,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'fpl_django.wsgi.application'
+WSGI_APPLICATION = 'fpl_api.wsgi.application'
 
 DATABASES = {
     'default': {
